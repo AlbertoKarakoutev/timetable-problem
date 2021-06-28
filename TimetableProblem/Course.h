@@ -9,7 +9,7 @@ using std::vector;
 
 class Course {
 public:
-    Course(string name, int minPeriods, in maxPeriods, vector<string> precedingCourseNames, vector<int> students);
+    Course(string name, int minPeriods, int maxPeriods, vector<string> precedingCourseNames, vector<int> students);
     Course(const Course& other);
     Course();
 

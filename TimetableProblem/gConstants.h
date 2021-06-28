@@ -13,7 +13,7 @@ using std::string;
 
 static const int daysInWeek = 5;
 static const int periodInDay = 8;
-static const int studentsPerClass = 10;
+static const int studentsPerClass = 5;
 static const int roomCount = 10;
 static const int studentCount = studentsPerClass * roomCount * 4;
 
@@ -25,6 +25,6 @@ static const string allCourseNames[] = { "Math", "Geography", "History", "Englis
 static const int cLength = sizeof(allCourseNames) / sizeof(allCourseNames[0]);
 static const int tLength = sizeof(allTeachers) / sizeof(allTeachers[0]);
 
-static const int possibleLecturesCount = daysInWeek * periodInDay * roomCount * cLength * (sizeof(allTeachers) / sizeof(allTeachers[0]));
+static const int possibleLecturesCount = daysInWeek * periodInDay * roomCount * cLength * tLength;
 
 #endif

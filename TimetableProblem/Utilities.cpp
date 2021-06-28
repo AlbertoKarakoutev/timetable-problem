@@ -10,7 +10,7 @@
 #include "Course.h"
 #include "gConstants.h"
 #include "gVariables.h"
-#include <pplwin.h>
+
 
 using std::cout;
 using std::count;
